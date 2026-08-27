@@ -91,8 +91,4 @@ if uploaded_file is not None:
         prob_dict = dict(sorted(prob_dict.items(), key=lambda x: x[1], reverse=True))
         st.bar_chart(prob_dict)
 
-st.divider()
-st.caption(
-    "Model: ResNet50 (Transfer Learning) \u00b7 Trained on the Garbage Classification (TrashNet-based) dataset \u00b7 "
-    "AI Capstone Project"
-)
+
